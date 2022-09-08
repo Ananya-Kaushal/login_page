@@ -1,0 +1,23 @@
+.*{
+
+}
+body{
+    background-image: url('style.jpg');
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    border: 10px solid rgba(245, 8, 237, 0.682);
+    margin: auto;
+    padding: auto;
+
+}
+.submit:hover{
+    background-color: black;
+}
+.submit{
+    background-color: brown;
+}
